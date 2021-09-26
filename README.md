@@ -4,20 +4,20 @@
 
 ## Background
 
-Your new startup is focusing on building a portfolio management system that supports not only traditional assets
+My new startup is focusing on building a portfolio management system that supports not only traditional assets
 like gold, silver, stocks, etc, but crypto-assets as well! The problem is, there are so many coins out there! It's
-a good thing you understand how HD wallets work, since you'll need to build out a system that can create them.
+a good thing I understand how HD wallets work, since I need to build out a system that can create them.
 
-You're in a race to get to the market. There aren't as many tools available in Python for this sort of thing, yet.
-Thankfully, you've found a command line tool, `hd-wallet-derive` that supports not only BIP32, BIP39, and BIP44, but
-also supports non-standard derivation paths for the most popular wallets out there today! However, you need to integrate
-the script into your backend with your dear old friend, Python.
+I'm in a race to get to the market. There aren't as many tools available in Python for this sort of thing, yet.
+Thankfully, I've found a command line tool, `hd-wallet-derive` that supports not only BIP32, BIP39, and BIP44, but
+also supports non-standard derivation paths for the most popular wallets out there today! However, I need to integrate
+the script into the backend with your dear old friend, Python.
 
-Once you've integrated this "universal" wallet, you can begin to manage billions of addresses across 300+ coins, giving
-you a serious edge against the competition.
+Once I've integrated this "universal" wallet, I can begin to manage billions of addresses across 300+ coins, giving
+me a serious edge against the competition.
 
-In this assignment, however, you will only need to get 2 coins working: Ethereum and Bitcoin Testnet.
-Ethereum keys are the same format on any network, so the Ethereum keys should work with your custom networks or testnets.
+In this assignment, however, I will only need to get 2 coins working: Ethereum and Bitcoin Testnet.
+Ethereum keys are the same format on any network, so the Ethereum keys should work with my custom networks or testnets.
 
 ## Dependencies
 
@@ -51,14 +51,6 @@ The following dependencies are required for this assignment and were likely alre
   
   - **Mac Users:** Run the following command: `ln -s hd-wallet-derive/hd-wallet-derive.php derive`. 
   
-  - **Windows Users:** Creating symlinks is not supported by default on Windows, only reading them, so Windows users must perform the following steps:
-
-    - Open up Git-Bash as an administrator (right-click on Git-Bash in the start menu).
-
-    - Within `bash`, run the command `export MSYS=winsymlinks:nativestrict`.
-    
-    - Run the following command: `ln -s hd-wallet-derive/hd-wallet-derive.php derive`. 
-
   - Test that you can run the `./derive` script properly, by running the following command.  
 
     - ```
@@ -215,14 +207,8 @@ The following dependencies are required for this assignment and were likely alre
       MyCrypto's TX Status, and screenshot the successful transaction like so:
 
       ![eth-test](Images/eth-test.png)
-### 7. Challenge Mode - **OPTIONAL**
 
-- Add support for `BTC`.
-
-- Add support for `LTC` using the sister library, [`lit`](https://github.com/blockterms/lit).
-
-- Add a function to track transaction status by `txid`.
-### 8. Submission
+### 7. Submission
 
 - Create a `README.md` that contains the test transaction screenshots, as well as the code used to send them.
   Pair the screenshot with the line(s) of code.
@@ -233,7 +219,5 @@ The following dependencies are required for this assignment and were likely alre
   You may include the `hd-wallet-derive` folder in your repo, but still include the install instructions. You do not
   need to include Python or PHP installation instructions.
 
-- Upload the project to a new GitHub repository.
 
-- Celebrate the fact that you now have an incredibly powerful wallet that you can expand to hundreds of coins!
 
